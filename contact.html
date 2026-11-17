@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact | Northstar Studio</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="container navbar">
+        <a href="index.html" class="brand">
+          <span class="brand-mark">N</span>
+          <span>Northstar Studio</span>
+        </a>
+        <nav class="nav-links" aria-label="Main navigation">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="services.html">Services</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-label="Open navigation"
+          aria-expanded="false"
+          data-menu-toggle
+        >
+          <span></span><span></span><span></span>
+        </button>
+        <a class="nav-btn" href="contact.html">Book a Call</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="page-hero">
+        <div class="container reveal">
+          <span class="eyebrow">Let’s Talk</span>
+          <h1>Tell us what you're building next.</h1>
+          <p class="lead">
+            We’d love to learn more about your goals and the kind of momentum
+            you want to create.
+          </p>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container contact-grid">
+          <div class="contact-card reveal">
+            <h3>Start a conversation</h3>
+            <p class="contact-copy">
+              Share a few details about your organization, goals, and timeline.
+              We’ll follow up with a thoughtful next step.
+            </p>
+            <ul class="meta-list">
+              <li>Strategy and roadmap conversations</li>
+              <li>Brand and web project planning</li>
+              <li>Custom partnership options</li>
+            </ul>
+          </div>
+
+          <div class="form-card reveal">
+            <form data-contact-form>
+              <div class="input-row">
+                <input
+                  type="text"
+                  placeholder="Your name"
+                  aria-label="Your name"
+                  required
+                />
+                <input
+                  type="email"
+                  placeholder="Your email"
+                  aria-label="Your email"
+                  required
+                />
+              </div>
+              <input
+                type="text"
+                placeholder="Company or project"
+                aria-label="Company or project"
+              />
+              <textarea
+                placeholder="Tell us a little about your goals..."
+                aria-label="Project details"
+                required
+              ></textarea>
+              <button class="submit-btn" type="submit">Send Inquiry</button>
+              <p
+                class="form-status"
+                role="status"
+                aria-live="polite"
+                data-form-status
+              ></p>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-row">
+        <div class="brand">
+          <span class="brand-mark">N</span>
+          <span>Northstar Studio</span>
+        </div>
+        <div>
+          © <span id="year"></span> Northstar Studio. All rights reserved.
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
